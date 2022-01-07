@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IOT Data Display</title>
+	<meta charset="utf-8">
+  </head>
+  <style>
+  table, th, td {
+  border: 1px solid red;
+  text-align: center;
+  }
+  </style>
+  <script>
+  function go_page() {
+     //alert("Hello");
+	 window.location.href = "/";
+  }
+  </script>
+  <body>
+<div>
+	<h2>資料顯示</h2>
+    <table>
+    <thead>
+    <th>溫度</th>
+    <th>電壓</th>
+    <th>電流</th>
+    </thead>
+    <tr>
+    <td><!--T1--></td>
+    <td><!--V1--></td>
+    <td><!--I1--></td>
+    </tr>
+    <tr>
+    <td><!--T2--></td>
+    <td><!--V2--></td>
+    <td><!--I2--></td>
+    </tr>
+    <tr>
+    <td><!--T3--></td>
+    <td><!--V3--></td>
+    <td><!--I3--></td>
+    </tr>
+    <tr>
+    <td><!--T4--></td>
+    <td><!--V4--></td>
+    <td><!--I4--></td>
+    </tr>
+	<input type="submit" value="送出">
+	</form>
+</div>
+<div>
+   <h2><a href="/myself.html">自我介紹</a></h2>
+   <button onclick="go_page()">回首頁</button>
+</div>
+  </body>
+</html>
+
